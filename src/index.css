@@ -1,6 +1,6 @@
 
 /* Make header, menu and rest of the page use flex */
-.header, .bodier, #menu, main {
+.header, .bodier, #menu, main, #menu li {
   display: flex;
 }
 
@@ -9,31 +9,43 @@
   width: 100%;
 }
 
+body, #menu {
+  margin: 0;
+}
+
 /* fix the menu and header in place */
 #menu, .header {
   position: sticky;
 }
 
+/* give the header and main portion some left padding */
+.header, main {
+  padding-left: 5%;
+}
+
 /* set header distance from top of page */
 .header {
-  top: 8px;
+  top: 0;
   height: 120px;
+  justify-content: space-between;
+  padding-right: 2%;
+  background-color: #cab6cd;
 }
 
 /* set width of main component */
 main {
-  width: 75%;
+  width: 80%;
 }
 
 /* make the menu pwetty */
 #menu {
-  top: 128px;
+  top: 120px;
   height: 400px;
   list-style-type: none;
   flex-direction: column;
   padding: 0;
   margin: 0;
-  width: 25%;
+  width: 20%;
 }
 
 /* make menu items pwetty */
@@ -42,4 +54,10 @@ main {
   color: black;
   height: 20%;
   text-align: center;
+}
+
+/* center menu text horizontally and vertically */
+#menu li {
+  align-items: center;
+  justify-content: center;
 }

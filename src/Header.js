@@ -6,21 +6,21 @@
 const Header = () => {
 
   /**
-   * This creates a pop up for making a book rec.
+   * This allows a user to search the website
    */
-  const makeRec = () => {
-    console.log("this will be a pop up");
+  const search = () => {
+    console.log("this will be a search function");
   }
 
   return(
     <div className="header">
       <header>
-        <h1>Books for Picky Bitches</h1>
+        <h1>Books for the Picky</h1>
         <h2>Reviewed by the Pickiest of Bookworms</h2>
       </header>
-      <section>
+      <section id="search">
         <input></input>
-        <button onClick={makeRec}>Send a rec</button>
+        <button onClick={search}>Search</button>
       </section>
     </div>
   );
