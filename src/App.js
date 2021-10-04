@@ -1,23 +1,69 @@
-import logo from './logo.svg';
-import './App.css';
+import Menu from './Menu';
+import Header from './Header';
 
+/**
+ * This App returns the basic html for the book review site.
+ * @returns html component
+ */
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="root">
+      <Header />
+      <section className="bodier">
+        <main>
+          <p>
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+            gfkghdajfskhqgieppppppppppppppppppppr hhdj earlfdjfaslkdj ;lasd flafljsdf;lkja
+            lakkj;ajlga;lkjf;lsadkj;lakj;lgkrqjgalk;lereaj;lkrejg;rjge;ergg;j;rql;qegjr
+            lkj;lkrg;qnra;ogariek,mdnlkvctrdyuglijnlkidtculvkbl/knlhulitrudtucgvhbj;;;oh
+          </p>
+        </main>
+        <Menu />
+      </section>
     </div>
   );
 }
