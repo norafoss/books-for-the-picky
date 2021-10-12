@@ -7,6 +7,7 @@
 /* make the app take up the whole page */
 .bodier {
   width: 100%;
+  background-color: #f2dfd7;
 }
 
 body, #menu {
@@ -16,6 +17,7 @@ body, #menu {
 /* fix the menu and header in place */
 #menu, .header {
   position: sticky;
+  border-bottom: #fefeee 2px solid;
 }
 
 /* give the header and main portion some left padding */
@@ -29,7 +31,33 @@ body, #menu {
   height: 120px;
   justify-content: space-between;
   padding-right: 2%;
-  background-color: #cab6cd;
+  background-color: #9448bc;
+  text-align: center;
+}
+
+.home {
+  background-color: #63b4d1;
+}
+
+.genre {
+  background-color: #7699d4;
+}
+
+.best {
+  background-color: #9448bc;
+}
+
+.worst {
+  background-color: #480355;
+}
+
+.soon {
+  background-color: #0b4f6c;
+}
+
+#rec {
+  background-color: #f2dfd7;
+  color:black;
 }
 
 /* set width of main component */
@@ -43,6 +71,7 @@ main {
   height: 400px;
   list-style-type: none;
   flex-direction: column;
+  border-left: #fefeee 2px solid;
   padding: 0;
   margin: 0;
   width: 20%;
@@ -51,13 +80,18 @@ main {
 /* make menu items pwetty */
 #menu a, #menu li {
   text-decoration: none;
-  color: black;
   height: 20%;
-  text-align: center;
+}
+
+#menu a, .header {
+  color: #fefeee;
+}
+
+.header, #menu li {
+  align-items: center;
 }
 
 /* center menu text horizontally and vertically */
 #menu li {
-  align-items: center;
   justify-content: center;
 }

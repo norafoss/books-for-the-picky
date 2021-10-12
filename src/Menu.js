@@ -15,7 +15,7 @@ const Menu = () => {
       <li className="best"><a href="/best_of">Best of</a></li>
       <li className="worst"><a href="/worst_of">...Worst of</a></li>
       <li className="soon"><a href="/coming_soon">Coming Soon</a></li>
-      <li onClick={makeRec}><p>Make a rec!</p></li>
+      <li id="rec" onClick={makeRec}><p>Make a rec!</p></li>
     </ul>
   );
 }
